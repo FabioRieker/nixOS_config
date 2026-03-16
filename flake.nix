@@ -25,6 +25,7 @@
     self,
     nixpkgs,
     home-manager,
+    inputs,
     ...
   }: let
     lib = nixpkgs.lib // home-manager.lib;
